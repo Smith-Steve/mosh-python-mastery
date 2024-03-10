@@ -6,4 +6,14 @@ message = """
 Hi Steve, this is Mosh from Mosh.com
 """
 
+escape_example = "Python \"Programming\""
+print(escape_example)
+
 print(len(course_name[0:4]))
+
+# Formatted Strings:
+first = "Steve"
+last = "Smith"
+full = first + " " + last
+full_test = f"{first} {last}"
+print(full_test)
