@@ -34,3 +34,8 @@ print(course2.replace("p", "j"))
 print("pro" in course2)
 #Not operator
 print("swift" not in course2)
+
+#Type Conversion
+x = input("x: ")
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
