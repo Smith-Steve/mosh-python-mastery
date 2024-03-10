@@ -36,6 +36,18 @@ print("pro" in course2)
 print("swift" not in course2)
 
 #Type Conversion
+#input allows you to have the user enter a value. In this case it is used in the CLI.
+## We accept value
 x = input("x: ")
+## We take the original value, which is a string, and then convert it into a number
 y = int(x) + 1
 print(f"x: {x}, y: {y}")
+
+# Truthy/Falsey Evaluations
+## Falsey
+### "" Empty String
+### 0
+### None
+
+##Truthy
+###
